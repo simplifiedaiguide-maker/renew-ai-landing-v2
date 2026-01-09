@@ -317,7 +317,8 @@ const App: React.FC = () => {
                   onClick={() => handleSendMessage("Regional Manager to Agile Product Owner?")}
                   className="w-full text-left bg-white/10 border border-white/20 hover:bg-white/20 p-4 rounded-xl text-sm font-semibold transition-all group"
                 >
-                  <span className="group-hover:translate-x-1 inline-block transition-transform">"Regional Manager to Agile?"</span>
+                  <form className="email-form" action="#" method="POST"> ``` **Change to:** ``` <form className="email-form" action="https://formspree.io/f/xgvgggzq" method="POST"> ```
+Multiple forms? Update all "Get Started" buttons (Starter/Founding/VIP)<span className="group-hover:translate-x-1 inline-block transition-transform">"Regional Manager to Agile?"</span>
                 </button>
               </div>
             </div>
